@@ -1,0 +1,6 @@
+token:
+  expiration_time: 86400000 # 1 day
+  secret: this is a development secret from config service
+
+gateway:
+  ip: 192.168.0.100 # 테스트용 임의값
