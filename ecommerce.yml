@@ -1,6 +1,6 @@
 token:
   expiration_time: 86400000 # 1 day
-  secret: this is a default secret from config service
+  secret: this is a default secret from config service - modified
 
 gateway:
-  ip: 192.168.0.100 # 테스트용 임의값
+  ip: 11.22.33.44 # 테스트용 임의값
