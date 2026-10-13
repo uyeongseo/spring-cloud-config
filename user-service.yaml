@@ -2,4 +2,4 @@ datasource:
   driver-class-name: org.h2.Driver
   url: jdbc:h2:mem:testdb;DB_CLOSE_DELAY=-1;
   username: sa
-  password: sa
+  password: '{cipher}caded5c607312e2fe2ee84b6b31ad38c07971ac3ffa1cd6ee09c6c97b7aa28fa'
