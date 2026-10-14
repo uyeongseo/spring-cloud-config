@@ -7,5 +7,7 @@ spring:
     password: '{cipher}AYAfYRpyGcE7tzA48aU18902a9yqULIWZ9imlfnyvBLfHStof4PW2nwaBFQSKDFd4xTC4HBrhzTGWY8Usi9b17ewMPsXc7q4YB7XgSbppY6yNokC6jg7SnzlfFEd3J7DHcvTF1S1a/fxMXgmjVX79qiFUwQbrbRHJgp3ZuhkxrPhsk2xFLzr45J7AXPkY6Uxi11qX9fJ3/9fAWaF1Q2FwkPHbBE4hfqpY/kTnvMFCc53qV/eTwhXt+XwjCatqMJOLSpwGl33bSfuMBH8DmiVtLuTgiw1XS5eBU4Ai3XfHPR7PQ5MhTE+u0bjOSY5a0jEQ7hCh3ZdMbASpkQ2u88NgpS1i6CCh5zPL4Fs1WVdQBVuVif0smHpTyb2jl7CoKsgvRq8B35n31qYg7cHIJ21LJFUuFBsidO2D5v99jxFYny3Ol0zZBqBz55ifupHkUVc1jsIu9TS0+PeduxhWWflYIWQzAm9sx8AmpNPwPcz0fN0qrOaKZbp9PTOx2C32c8Wen07zBhxlKOje9H1Bl3Ws6ulI+/RoqpSTjawo6zO3Djd3Q=='
 
 order-service:
-  #url: http://localhost:8000/order-service/%s/orders # 하드코딩
+  # url: http://127.0.0.1:8080/order-service/%s/orders # 하드코딩
   url: http://order-service/order-service/%s/orders # 유레카에 등록된 서비스 이름을 사용하여 동적으로 주문 서비스 URL 생성
+  exception:
+    order-is-empty: User's orders is empty
